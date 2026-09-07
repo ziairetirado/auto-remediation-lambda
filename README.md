@@ -18,20 +18,10 @@ ones where the correct fix is unambiguous and safe to apply automatically.
 
 ## Architecture
 
-```
-Security Hub Finding
-        │  (ACTIVE, NEW, severity ≥ MEDIUM)
-        ▼
-EventBridge Rule  ──────────────►  Lambda (Python 3.12)
-                                        │
-                    ┌───────────────────┼───────────────────┐
-                    ▼                   ▼                   ▼
-            S3 remediation      SG remediation       IAM remediation
-          (Block Public Access) (revoke open ingress) (deactivate key)
-                    │                   │                   │
-                    └───────────────────┼───────────────────┘
-                                        ▼
-                        DynamoDB audit log  +  SNS notification
+'''
+<img width="1407" height="768" alt="IMG_5239" src="https://github.com/user-attachments/assets/30ae5931-3f36-4714-868e-f6a8ab126e58" />
+
+
 ```
 
 **Trigger → Route → Fix → Record → Notify**, in one Lambda invocation, with
