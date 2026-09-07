@@ -18,8 +18,8 @@ ones where the correct fix is unambiguous and safe to apply automatically.
 
 ## Architecture
 
-
-<img width="1407" height="768" alt="IMG_5239" src="https://github.com/user-attachments/assets/30ae5931-3f36-4714-868e-f6a8ab126e58" />
+```
+<img width="1407" height="768" alt="IMG_5239" src="https://github.com/user-attachments/assets/02bf814b-11d4-4302-bf84-e10a338cf217" />
 
 
 ```
