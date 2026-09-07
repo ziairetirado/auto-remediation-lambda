@@ -1,0 +1,19 @@
+{
+  "findings": [
+    {
+      "Id": "arn:aws:securityhub:us-east-1:123456789012:subscription/aws-foundational-security-best-practices/v/1.0.0/EC2.19/finding/aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
+      "GeneratorId": "aws-foundational-security-best-practices/v/1.0.0/EC2.19",
+      "AwsAccountId": "123456789012",
+      "Region": "us-east-1",
+      "Title": "Security groups should not allow unrestricted access to ports with high risk",
+      "Types": ["Software and Configuration Checks/Industry and Regulatory Standards"],
+      "Severity": { "Label": "HIGH" },
+      "Resources": [
+        {
+          "Type": "AwsEc2SecurityGroup",
+          "Id": "arn:aws:ec2:us-east-1:123456789012:security-group/sg-0123456789abcdef0"
+        }
+      ]
+    }
+  ]
+}

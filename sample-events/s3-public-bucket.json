@@ -1,0 +1,19 @@
+{
+  "findings": [
+    {
+      "Id": "arn:aws:securityhub:us-east-1:123456789012:subscription/aws-foundational-security-best-practices/v/1.0.0/S3.8/finding/11111111-2222-3333-4444-555555555555",
+      "GeneratorId": "aws-foundational-security-best-practices/v/1.0.0/S3.8",
+      "AwsAccountId": "123456789012",
+      "Region": "us-east-1",
+      "Title": "S3 buckets should have block public access settings enabled",
+      "Types": ["Software and Configuration Checks/Industry and Regulatory Standards"],
+      "Severity": { "Label": "CRITICAL" },
+      "Resources": [
+        {
+          "Type": "AwsS3Bucket",
+          "Id": "arn:aws:s3:::example-demo-public-bucket"
+        }
+      ]
+    }
+  ]
+}
