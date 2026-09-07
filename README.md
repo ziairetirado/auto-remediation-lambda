@@ -18,11 +18,11 @@ ones where the correct fix is unambiguous and safe to apply automatically.
 
 ## Architecture
 
-```
-<img width="1407" height="768" alt="IMG_5239" src="https://github.com/user-attachments/assets/02bf814b-11d4-4302-bf84-e10a338cf217" />
 
 
-```
+<img width="1407" height="768" alt="IMG_5239" src="https://github.com/user-attachments/assets/79b7084d-d161-49d9-8a62-7fe2df2c8f5e" />
+
+
 
 **Trigger → Route → Fix → Record → Notify**, in one Lambda invocation, with
 no step that waits on a person.
