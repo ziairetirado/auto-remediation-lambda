@@ -1,0 +1,24 @@
+{
+  "findings": [
+    {
+      "Id": "arn:aws:securityhub:us-east-1:123456789012:subscription/aws-foundational-security-best-practices/v/1.0.0/IAM.3/finding/99999999-8888-7777-6666-555555555555",
+      "GeneratorId": "aws-foundational-security-best-practices/v/1.0.0/IAM.3",
+      "AwsAccountId": "123456789012",
+      "Region": "us-east-1",
+      "Title": "IAM users' access keys should be rotated / unused key should be disabled",
+      "Types": ["Software and Configuration Checks/Industry and Regulatory Standards"],
+      "Severity": { "Label": "MEDIUM" },
+      "Resources": [
+        {
+          "Type": "AwsIamAccessKey",
+          "Id": "AKIAABCDEFGHIJKLMNOP",
+          "Details": {
+            "AwsIamAccessKey": {
+              "UserName": "ci-deploy-bot"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
