@@ -1,0 +1,4 @@
+# boto3/botocore ship with the AWS Lambda Python runtime by default.
+# Listed here for local development, unit testing, and to pin a version
+# for CI if you want to test against a specific SDK release.
+boto3>=1.34.0
